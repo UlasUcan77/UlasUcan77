@@ -14,6 +14,11 @@ An Android app that turns sign language gestures from the live camera feed into 
 
 Published on Huawei AppGallery.
 
+### [PatiReminder](https://github.com/UlasUcan77/PatiReminder) — vaccine and medication reminders for the whole family
+**Open source: the full code, tests and CI are public.**
+
+I built it because nobody at home knew whether our dog's evening pill had already been given. An Expo mobile app and a React web panel share one Node.js and PostgreSQL API. When someone marks a dose as given, every family member's screen updates live over Socket.IO, a unique index in the database makes a second record of the same dose impossible, and server-side reminders arrive as push notifications even when the app is closed.
+
 ### [Anlat](https://github.com/UlasUcan77/Anlat) — real-time messaging between psychologists and clients
 A React Native app, live on Google Play and the App Store. Chat runs over Socket.IO against a Node.js and PostgreSQL backend that runs in Docker on Railway, deployed through a CI/CD pipeline.
 
@@ -28,7 +33,7 @@ A React front end with a PHP backend: appointment booking, specialist listings, 
 
 ## Stack
 
-Kotlin · Jetpack Compose · React Native · Flutter · React · JavaScript · PHP · Python · PyTorch · Firebase · Docker · SQL · Git
+Kotlin · Jetpack Compose · React Native · Flutter · React · TypeScript · JavaScript · Node.js · PHP · Python · PyTorch · Firebase · PostgreSQL · Docker · SQL · Git
 
 ## Contact
 
