@@ -3,7 +3,7 @@
   <img src="assets/header-light.svg" width="100%" alt="Ulaş Uçan — Full stack & mobile developer. A hand skeleton made of 21 landmarks with red joints.">
 </picture>
 
-I'm Ulaş, a full stack and mobile developer based in Istanbul, studying Computer Engineering at İzmir Bakırçay University (2022–2026). I build apps and take them all the way to the store: native Android with Kotlin and Jetpack Compose, cross-platform with React Native, and the web and backend parts around them. My sign language app, Conversign, runs a PyTorch-trained model directly on the phone, with no server round trip.
+I'm Ulaş, a full stack and mobile developer based in Istanbul, studied Computer Engineering at İzmir Bakırçay University (2022–2026). I build apps and take them all the way to the store: native Android with Kotlin and Jetpack Compose, cross-platform with React Native, and the web and backend parts around them. My sign language app, Conversign, runs a PyTorch-trained model directly on the phone, with no server round trip.
 
 ## Selected work
 
