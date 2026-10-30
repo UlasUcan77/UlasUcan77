@@ -1,6 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
   <title id="t">Ulaş Uçan — Full stack &amp; mobile developer</title>
   <desc id="d">A MediaPipe-style hand skeleton: 21 landmarks joined by lines, with red joints.</desc>
+  <style>
+    .hand { transform-origin: 186px 248.7px; animation: wave 3.2s ease-in-out infinite; }
+    .halo { transform-box: fill-box; transform-origin: center; animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes wave { 0%, 100% { transform: rotate(-9deg); } 50% { transform: rotate(9deg); } }
+    @keyframes pulse { 0%, 100% { transform: scale(0.8); opacity: 0.5; } 50% { transform: scale(1.25); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .hand, .halo { animation: none; } }
+  </style>
+  <g class="hand">
   <g stroke-linecap="round">
     <line x1="186.0" y1="248.7" x2="145.3" y2="234.9" stroke="#6e7681" stroke-width="3.0"/>
     <line x1="145.3" y1="234.9" x2="111.3" y2="212.0" stroke="#6e7681" stroke-width="3.0"/>
@@ -29,28 +37,29 @@
     <circle cx="145.3" cy="234.9" r="5.0" fill="#ff5c5c"/>
     <circle cx="111.3" cy="212.0" r="5.0" fill="#ff5c5c"/>
     <circle cx="89.1" cy="187.1" r="5.0" fill="#ff5c5c"/>
-    <circle cx="69.6" cy="165.9" r="11.0" fill="#ff5c5c" fill-opacity="0.14"/>
+    <circle cx="69.6" cy="165.9" r="11.0" fill="#ff5c5c" fill-opacity="0.14" class="halo"/>
     <circle cx="69.6" cy="165.9" r="6.5" fill="#ff5c5c"/>
     <circle cx="139.0" cy="157.0" r="5.0" fill="#ff5c5c"/>
     <circle cx="124.2" cy="114.7" r="5.0" fill="#ff5c5c"/>
     <circle cx="114.6" cy="85.9" r="5.0" fill="#ff5c5c"/>
-    <circle cx="106.6" cy="60.8" r="11.0" fill="#ff5c5c" fill-opacity="0.14"/>
+    <circle cx="106.6" cy="60.8" r="11.0" fill="#ff5c5c" fill-opacity="0.14" class="halo"/>
     <circle cx="106.6" cy="60.8" r="6.5" fill="#ff5c5c"/>
     <circle cx="166.7" cy="146.5" r="5.0" fill="#ff5c5c"/>
     <circle cx="158.9" cy="97.1" r="5.0" fill="#ff5c5c"/>
     <circle cx="153.9" cy="65.5" r="5.0" fill="#ff5c5c"/>
-    <circle cx="149.5" cy="37.8" r="11.0" fill="#ff5c5c" fill-opacity="0.14"/>
+    <circle cx="149.5" cy="37.8" r="11.0" fill="#ff5c5c" fill-opacity="0.14" class="halo"/>
     <circle cx="149.5" cy="37.8" r="6.5" fill="#ff5c5c"/>
     <circle cx="194.3" cy="148.2" r="5.0" fill="#ff5c5c"/>
     <circle cx="193.1" cy="101.8" r="5.0" fill="#ff5c5c"/>
     <circle cx="192.5" cy="72.6" r="5.0" fill="#ff5c5c"/>
-    <circle cx="191.5" cy="47.4" r="11.0" fill="#ff5c5c" fill-opacity="0.14"/>
+    <circle cx="191.5" cy="47.4" r="11.0" fill="#ff5c5c" fill-opacity="0.14" class="halo"/>
     <circle cx="191.5" cy="47.4" r="6.5" fill="#ff5c5c"/>
     <circle cx="219.9" cy="156.3" r="5.0" fill="#ff5c5c"/>
     <circle cx="228.7" cy="122.5" r="5.0" fill="#ff5c5c"/>
     <circle cx="233.2" cy="99.5" r="5.0" fill="#ff5c5c"/>
-    <circle cx="236.7" cy="76.7" r="11.0" fill="#ff5c5c" fill-opacity="0.14"/>
+    <circle cx="236.7" cy="76.7" r="11.0" fill="#ff5c5c" fill-opacity="0.14" class="halo"/>
     <circle cx="236.7" cy="76.7" r="6.5" fill="#ff5c5c"/>
+  </g>
   </g>
   <path d="M47.6,33.8 V15.8 H65.6 M240.7,15.8 H258.7 V33.8 M258.7,252.7 V270.7 H240.7 M65.6,270.7 H47.6 V252.7" fill="none" stroke="#30363d" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="47.6" y="294.7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#6e7681">21 landmarks</text>
