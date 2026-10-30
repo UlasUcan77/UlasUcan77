@@ -5,6 +5,23 @@
 
 I'm Ulaş, a full stack and mobile developer based in Istanbul, studied Computer Engineering at İzmir Bakırçay University (2022–2026). I build apps and take them all the way to the store: native Android with Kotlin and Jetpack Compose, cross-platform with React Native, and the web and backend parts around them. My sign language app, Conversign, runs a PyTorch-trained model directly on the phone, with no server round trip.
 
+## 🎥 In the media
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://www.youtube.com/watch?v=9RHwy7cDCZM"><img src="https://img.youtube.com/vi/9RHwy7cDCZM/hqdefault.jpg" alt="A Haber: Turkish teams awarded at the UNESCO-supported ICT competition" width="100%"></a>
+      <br>
+      <b>A Haber</b> — news coverage of the UNESCO-supported Huawei ICT Competition, where our sign language app Conversign took 3rd place worldwide.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://www.youtube.com/watch?v=4x1sANb3138"><img src="https://img.youtube.com/vi/4x1sANb3138/hqdefault.jpg" alt="Huawei Developer Groups Türkiye: where to start with the Huawei ICT Competition" width="100%"></a>
+      <br>
+      <b>Huawei Developer Groups Türkiye</b> — my guide video for students who want to enter the Huawei ICT Competition and don't know where to start.
+    </td>
+  </tr>
+</table>
+
 ## Selected work
 
 ### [Conversign](https://github.com/UlasUcan77/Conversign) — real-time sign language recognition
