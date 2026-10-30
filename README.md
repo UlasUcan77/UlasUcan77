@@ -54,4 +54,4 @@ Kotlin · Jetpack Compose · React Native · Flutter · React · TypeScript · J
 
 ## Contact
 
-[Portfolio](https://claude.ai/artifact/F88g3RjiCXqDh8wEp9KqBb) · [LinkedIn](https://www.linkedin.com/in/ula%C5%9F-u%C3%A7an-36531626b) · [uls.ucn@gmail.com](mailto:uls.ucn@gmail.com)
+[Portfolio](https://ulasucan77.github.io) · [LinkedIn](https://www.linkedin.com/in/ula%C5%9F-u%C3%A7an-36531626b) · [uls.ucn@gmail.com](mailto:uls.ucn@gmail.com)
